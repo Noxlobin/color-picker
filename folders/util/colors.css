@@ -1,0 +1,13 @@
+html {
+  --bright-yellow: #f7de00;
+  --desaturated-blue: hsl(240, 24%, 25%);
+  --darker-blue: #211f38;
+  --dark-grey: #252525;
+  --red: #ff0000;
+  --orange: #ff4800;
+  --yellow: #fffb00;
+  --green: #32d600;
+  --blue: #3755ff;
+  --indigo: #49047a;
+  --purple: #b903dd;
+}

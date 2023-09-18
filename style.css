@@ -1,0 +1,93 @@
+@import url("folders/global/main.css");
+@import url("folders/util/colors.css");
+@import url("folders/util/fonts.css");
+@import url("folders/global/typography.css");
+
+h1 {
+  color: var(--bright-yellow);
+  text-align: center;
+}
+
+.title {
+  color: var(--dark-grey);
+  text-align: center;
+}
+
+#box-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 55vh;
+}
+
+.color {
+  height: 40px;
+  width: 40px;
+  
+  border-radius: 10000px;
+  padding: 13px;
+  margin: 0 8px;
+  border: 1px solid #000000;
+}
+
+h2 {
+  background-color: #fff !important;
+  text-align: center;
+  text-shadow: 0px 0px 10px #cacdf1;
+}
+
+.red {
+  background-color: var(--red);
+  color: var(--red);
+}
+
+.orange {
+  background-color: var(--orange);
+  color: var(--orange);
+}
+
+.yellow {
+  background-color: var(--yellow);
+  color: var(--yellow);
+}
+
+.green {
+  background-color: var(--green);
+  color: var(--green);
+}
+
+.blue {
+  background-color: var(--blue);
+  color: var(--blue);
+}
+
+.indigo {
+  background-color: var(--indigo);
+  color: var(--indigo);
+}
+
+.purple {
+  background-color: var(--purple);
+  color: var(--purple);
+}
+.colors {
+  display: flex;
+  justify-content: space-between;
+}
+
+button {
+  display: block;
+  width: 150px;
+  padding: 9px 19px;
+  margin: 23px auto;
+  font-size: 100%;
+  border-radius: 100px;
+  border: none;
+  background-color: var(--desaturated-blue);
+  color: white;
+}
+
+button:hover, button:active {
+  background-color: var(--darker-blue);
+  transition: all 400ms cubic-bezier(1, 0, 0, 1);
+}

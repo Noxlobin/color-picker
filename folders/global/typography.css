@@ -1,0 +1,12 @@
+h1, h2, h3, p.title {
+  font-weight: 900 !important;
+  font-family: 'Roboto', sans-serif;
+}
+
+p, span {
+  font-weight: 500 !important;
+}
+
+.title {
+  font-size: 17px;
+}
